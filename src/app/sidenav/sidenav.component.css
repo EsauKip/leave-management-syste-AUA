@@ -1,6 +1,6 @@
 
 :root{
-    --main-color: rgb(6, 124, 160);
+    --main-color: blue;
     --font-size: ;
 }
 
@@ -11,7 +11,7 @@
     position: fixed;
     z-index: 1;
     top: 0;
-    background-color:#fff;
+    background-color:rgb(5, 89, 114);
     /* overflow-x: hidden; */
     transition: 0.5s;
     padding-top: 10px;
@@ -101,7 +101,7 @@
     align-items: center;
     border-radius: 00.625rem;
     height: 3rem;
-    color: black;
+    color: #fff;
     text-decoration: none;
     transition: all .3s ease;
 }
@@ -121,8 +121,8 @@
 
 }
 .sidenav-nav-item:hover .sidenav-nav-link{
-    color: ffffff;
-   background-color:blue;
+    color: black;
+   background-color: rgb(175, 159, 10);
     
 
 }

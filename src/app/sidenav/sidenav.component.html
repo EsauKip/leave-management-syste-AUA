@@ -1,7 +1,7 @@
 <div class="sidenav" [ngClass]="collapsed ? 'sidenav-collapsed': ''" >
     <div class="logo-container">
-      <img class="logo" (click)="toggleCollapse()" src="../../assets/logo-design-1a.webp" height="50px" width="">
-      <div class="logo-text" *ngIf="collapsed">AUA</div>
+      <img class="logo" (click)="toggleCollapse()" src="../../assets/logo.png" height="50px" width="">
+      <div class="logo-text" *ngIf="collapsed"><span style="color: rgb(6, 124, 160);">AUA</span></div>
       <button class="btn-close" *ngIf="collapsed" (click)="closeSidenav()">
           <i class="fas fa-times"></i>
       </button>
