@@ -9,7 +9,16 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProfileComponent } from './profile/profile.component';
 import { LeaveComponent } from './leave/leave.component';
+
 import { HolidaysComponent } from './holidays/holidays.component';
+ import { ReactiveFormsModule } from '@angular/forms';
+ import {
+  SocialLoginModule,
+  SocialAuthServiceConfig,
+} from 'angularx-social-login';
+import { GoogleLoginProvider } from 'angularx-social-login';
+import { LoginComponent } from './login/login.component';
+
 
 @NgModule({
   declarations: [
@@ -19,14 +28,33 @@ import { HolidaysComponent } from './holidays/holidays.component';
     DashboardComponent,
     ProfileComponent,
     LeaveComponent,
-    HolidaysComponent
+    HolidaysComponent,
+    LoginComponent,
+   
+    
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    SocialLoginModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: 'SocialAuthServiceConfig',
+      useValue: {
+        autoLogin: false,
+        providers: [
+          {
+            id: GoogleLoginProvider.PROVIDER_ID,
+            provider: new GoogleLoginProvider('678524975939-6bbfplrv4gupuf46j0gdg52ba3dcv141.apps.googleusercontent.com'),
+          },
+        ],
+      } as SocialAuthServiceConfig,
+    },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
