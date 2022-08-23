@@ -8,11 +8,11 @@
 .sidenav{
     height: 100vh;
     width: 5rem;
-    position: fixed;
+    position:absolute;
     z-index: 1;
     top: 0;
-    background-color:rgb(5, 89, 114);
-    /* overflow-x: hidden; */
+    background-color:#fff;
+    overflow: hidden;
     transition: 0.5s;
     padding-top: 10px;
     box-shadow: 0.06rem 0.05rem 1.26rem rgba(0,0,0,0.2);
@@ -45,7 +45,7 @@
     margin-left: 1.5rem;
     font-size: 24px;
     font-weight: 700;
-    color: #fff;
+    color: rgb(5, 89, 114);
 }
 .btn-close{
     position: absolute;
@@ -54,7 +54,7 @@
     right: 0.938rem;
     font-size: 1.25rem;
     font-weight: 900;
-    color: #fff;
+    color: rgb(5, 89, 114);
     background-color: transparent;
     cursor: pointer;
     border-radius: 0.313rem;
@@ -63,7 +63,7 @@
 
 .fa-times{
     font-size: 1.25rem;
-    color: #fff;
+    color: rgb(5, 89, 114);
 }
 .sidenav-collapsed{
     width:17.7625rem;
@@ -101,7 +101,7 @@
     align-items: center;
     border-radius: 00.625rem;
     height: 3rem;
-    color: #fff;
+    color: rgb(5, 89, 114);
     text-decoration: none;
     transition: all .3s ease;
 }

@@ -2,7 +2,7 @@ h1{
     text-align: center;
     font-size: 34px;
     font-weight: bold;
-    color: rgb(5, 89, 114);
+    color: #fff;
 }
 hr{
     border: 5px solid rgb(223, 201, 6);
@@ -15,11 +15,12 @@ h3{
    
     font-size: 24px;
     
-    color: rgb(5, 89, 114);
+    color: #fff;
 }
 label{
     font-size: 20px;
-    color: rgb(5, 89, 114);
+    color: #fff;
+   
 }
 .form-control{
  
@@ -28,6 +29,20 @@ label{
     margin-right: auto;
 }
 #file{
+    margin-left: 60px;
     font-size: 20px;
-    color: rgb(5, 89, 114);
+    color: #fff
+}
+.btn{
+   
+    margin-top:100px;
+    color: #fff;
+    font-size: 18px;
+    background-color:transparent;
+    border:2px solid #fff;
+   
+    
+}
+.btn:hover{
+    background-color: rgb(223, 201, 6);
 }
