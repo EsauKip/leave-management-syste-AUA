@@ -11,3 +11,22 @@ hr{
     margin-left: auto;
     margin-right: auto;
 }
+.example-card {
+    max-width: 400px;
+    background-color: #fff;
+    color: black;
+    border-top: 5px solid rgb(223, 201, 6);
+    border-top-right-radius:30px;
+    border-top-left-radius:30px;
+    padding-bottom: 30px;
+  }
+  .profile{
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  .header{
+    font-size: 26px;
+    font-weight: 600;
+    color: #434F66;
+
+  }

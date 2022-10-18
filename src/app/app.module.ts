@@ -20,6 +20,7 @@ import { GoogleLoginProvider } from 'angularx-social-login';
 import { LoginComponent } from './login/login.component';
 
 import {MatCardModule} from '@angular/material/card';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import {MatCardModule} from '@angular/material/card';
     BrowserAnimationsModule,
     ReactiveFormsModule,
     SocialLoginModule,
-    MatCardModule
+    MatCardModule,
+    MatProgressBarModule
   ],
   providers: [
     {
