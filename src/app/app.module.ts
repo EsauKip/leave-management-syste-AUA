@@ -19,6 +19,7 @@ import { HolidaysComponent } from './holidays/holidays.component';
 import { GoogleLoginProvider } from 'angularx-social-login';
 import { LoginComponent } from './login/login.component';
 
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { LoginComponent } from './login/login.component';
     LeaveComponent,
     HolidaysComponent,
     LoginComponent,
+    
    
     
 
@@ -39,7 +41,8 @@ import { LoginComponent } from './login/login.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-    SocialLoginModule
+    SocialLoginModule,
+    MatCardModule
   ],
   providers: [
     {
