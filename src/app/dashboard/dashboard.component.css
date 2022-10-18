@@ -18,8 +18,18 @@ hr{
   }
   .leave{
     display: flex;
-    color: #fff;
+    color: black;
+    border:black 2px solid;
+    border-radius: 10px;
+    background-color:#fff;
   }
   button{
     margin: 20px;
+  }
+  p{
+    text-align: center;
+    margin: 20px;
+    font-weight: 400;
+    font-size: large;
+
   }
