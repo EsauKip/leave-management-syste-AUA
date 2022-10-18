@@ -16,8 +16,8 @@ hr{
     background-color: #fff;
     color: black;
     border-top: 5px solid rgb(223, 201, 6);
-    border-top-right-radius:30px;
-    border-top-left-radius:30px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
     padding-bottom: 30px;
   }
   .profile{
@@ -29,4 +29,8 @@ hr{
     font-weight: 600;
     color: #434F66;
 
+    
+  }
+  p{
+    text-align:left;
   }
