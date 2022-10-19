@@ -18,20 +18,23 @@ hr{
     border-top: 5px solid rgb(223, 201, 6);
     border-top-right-radius:10px;
     border-top-left-radius:10px;
-    padding-bottom: 30px;
+    align-items: flex-start;
+    padding-right: 100px;
+   
   }
   .profile{
-    margin-left: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
     margin-top: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin: 100px;
+    
 
   }
   .header{
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 300;
     color: #434F66;
 
     
