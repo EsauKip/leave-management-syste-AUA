@@ -21,6 +21,7 @@ import { LoginComponent } from './login/login.component';
 
 import {MatCardModule} from '@angular/material/card';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { AddToCalendarModule } from 'add-events-to-google-calendar';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     ReactiveFormsModule,
     SocialLoginModule,
     MatCardModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    AddToCalendarModule
   ],
   providers: [
     {
