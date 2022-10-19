@@ -5,10 +5,14 @@ import { HolidaysComponent } from './holidays/holidays.component';
 import { LeaveComponent } from './leave/leave.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
+import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  {path:'**',redirectTo:'home'},
+  {redirectTo:'',path:'login',pathMatch:'full'},
+  {path: 'login',component: LoginComponent},
+  {path:'signup',component: SignupComponent},
+
+
   {path:'dashboard',component:DashboardComponent},
   {path:'leave',component:LeaveComponent},
   {path:'profile',component:ProfileComponent},
