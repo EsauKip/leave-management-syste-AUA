@@ -12,16 +12,13 @@ import { LeaveComponent } from './leave/leave.component';
 
 import { HolidaysComponent } from './holidays/holidays.component';
  import { ReactiveFormsModule } from '@angular/forms';
- import {
-  SocialLoginModule,
-  SocialAuthServiceConfig,
-} from 'angularx-social-login';
-import { GoogleLoginProvider } from 'angularx-social-login';
+ 
 import { LoginComponent } from './login/login.component';
 
 import {MatCardModule} from '@angular/material/card';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { AddToCalendarModule } from 'add-events-to-google-calendar';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +30,7 @@ import { AddToCalendarModule } from 'add-events-to-google-calendar';
     LeaveComponent,
     HolidaysComponent,
     LoginComponent,
+    SignupComponent,
     
    
     
@@ -43,25 +41,13 @@ import { AddToCalendarModule } from 'add-events-to-google-calendar';
     AppRoutingModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-    SocialLoginModule,
+   
     MatCardModule,
     MatProgressBarModule,
     AddToCalendarModule
   ],
-  providers: [
-    {
-      provide: 'SocialAuthServiceConfig',
-      useValue: {
-        autoLogin: false,
-        providers: [
-          {
-            id: GoogleLoginProvider.PROVIDER_ID,
-            provider: new GoogleLoginProvider('678524975939-6bbfplrv4gupuf46j0gdg52ba3dcv141.apps.googleusercontent.com'),
-          },
-        ],
-      } as SocialAuthServiceConfig,
-    },
-  ],
+  
+  
   bootstrap: [AppComponent]
 })
 export class AppModule { }
