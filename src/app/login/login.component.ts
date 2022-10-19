@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup } from '@angular/forms';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -11,8 +11,12 @@ login:FormGroup|any;
   constructor() { }
 
   ngOnInit(): void {
+    this.login=new FormGroup({
+      'fname':new FormControl(),
+      'password':new FormControl()
+    });
   }
 logindata(login:FormGroup){
-
+console.log(this.login.value);
 }
 }
