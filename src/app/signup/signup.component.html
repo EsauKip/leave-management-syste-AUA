@@ -1,29 +1,34 @@
 <div class="container">
     <form [formGroup]="signup" (ngSubmit)="signupdata(signup)" class="form-box1">
-        <h3>Signup</h3>
+        <h3>Signup </h3>
         <div class="form-group">
-            <label for="">First Name</label>
-            <input type="text" formControlName="fname" class="form-control mb-3 mt-3" placeholder="Enter First name">
+            <label>First Name</label>
+            <input type="text" formControlName="fname" class="form-control mb-3 mt-3" placeholder="Enter First Name"/>
         </div>
+
         <div class="form-group">
-            <label for="Last Name">Last Name</label>
-            <input type="text" formControlName="lname" class="form-control mb-3 mt-3" placeholder="Enter Last Name">
+            <label>Last name</label>
+            <input type="text" formControlName="lname" class="form-control mb-3 mt-3" placeholder="Enter Last Name"/>
         </div>
+
         <div class="form-group">
-            <label for="Email">Email</label>
-            <input type="email" formControlName="email" class="form-control mb-3 mt-3" placeholder="Enter Email">
+            <label>Email</label>
+            <input type="eamil" formControlName="email" class="form-control mb-3 mt-3" placeholder="Enter Email"/>
         </div>
+
         <div class="form-group">
-            <label for="Phone">Phone</label>
-            <input type="text" formControlName="phone" class="form-control mb-3 mt-3" placeholder="Enter Phone Number">
+            <label>Phone No</label>
+            <input type="text" formControlName="phone" class="form-control mb-3 mt-3" placeholder="Enter Phone Number"/>
         </div>
+
         <div class="form-group">
-            <label for="Password">Password</label>
-            <input type="Password" formControlName="password" class="form-control mb-3 mt-3" placeholder="Enter Password">
+            <label>Password</label>
+            <input type="password" formControlName="password" class="form-control mb-3 mt-3" placeholder="Enter Password"/>
         </div>
-        <span>You already have an account  <a routerLink="login"> Login</a></span>
-        <br>
-        <button type="submit" class="btn btn-success">Signup</button>
+        <span>You Have Already Account </span>
+        <a routerLink="login" (click)="sbtn()">singin</a>
+        <br/>
+        <button type="submit" class="btn btn-success">signup</button>
     </form>
 </div>
 <router-outlet></router-outlet>
