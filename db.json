@@ -1,6 +1,12 @@
 {
   "signup": [
-   
+    {
+      "fname": null,
+      "email": null,
+      "lname": null,
+      "password": null,
+      "phone": null,
+      "id": 1
+    }
   ]
-  
 }
