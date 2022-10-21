@@ -11,5 +11,15 @@
     top: 50%;
     z-index: 1;
     transform: translate(-50%, -50%);
+    border-radius: 20px;
+   /* display: flex;
+   justify-content: space-between; */
 
 }
+input{
+    background-color:transparent;
+}
+::placeholder{
+    color: inherit;
+}
+
