@@ -1,12 +1,20 @@
 {
   "signup": [
     {
-      "fname": null,
-      "email": null,
-      "lname": null,
-      "password": null,
-      "phone": null,
-      "id": 1
+      "fname": "Esau",
+      "email": "Kipronoesau28@gmail.com",
+      "lname": "Kiprono",
+      "password": "kiprono",
+      "phone": "0700768455",
+      "id": 3
+    },
+    {
+      "fname": "james",
+      "email": "kariuki10@gmail.com",
+      "lname": "kariuki",
+      "password": "k@22",
+      "phone": "0700768455",
+      "id": 4
     }
   ]
 }
