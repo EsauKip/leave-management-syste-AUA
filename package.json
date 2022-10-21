@@ -23,6 +23,7 @@
     "add-events-to-google-calendar": "^1.1.9",
     "angularx-social-login": "^4.1.0",
     "bootstrap": "^5.2.0",
+    "json-server": "^0.17.0",
     "popper": "^1.0.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",

@@ -1,0 +1,12 @@
+.form-box1{
+    height: auto;
+    width:400px;
+    padding:25px;
+    position:absolute;
+    background-color:rgb(223, 201, 6);
+    left: 50%;
+    top: 50%;
+    
+    transform: translate(-50%, -50%);
+
+}
